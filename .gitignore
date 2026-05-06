@@ -1,0 +1,31 @@
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Editor directories
+.vscode/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Local/derived data
+embeddings.pkl
+.pytest_cache/
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+~*

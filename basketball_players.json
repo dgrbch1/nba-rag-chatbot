@@ -1,0 +1,287 @@
+[
+  {
+    "name": "LeBron James",
+    "team": "Los Angeles Lakers",
+    "position": "Forward",
+    "height": "6'9\"",
+    "weight": "250 lbs",
+    "draft_year": 2003,
+    "career_stats": {
+      "points": 40557,
+      "rebounds": 11297,
+      "assists": 10679
+    },
+    "achievements": [
+      "4x NBA Champion",
+      "4x NBA MVP",
+      "20x NBA All-Star",
+      "17x All-NBA",
+      "6x All-Defensive"
+    ]
+  },
+  {
+    "name": "Michael Jordan",
+    "team": "Chicago Bulls",
+    "position": "Guard",
+    "height": "6'6\"",
+    "weight": "225 lbs",
+    "draft_year": 1984,
+    "career_stats": {
+      "points": 32292,
+      "rebounds": 6672,
+      "assists": 5633
+    },
+    "achievements": [
+      "6x NBA Champion",
+      "5x NBA MVP",
+      "6x Finals MVP",
+      "14x NBA All-Star",
+      "11x All-NBA",
+      "9x All-Defensive"
+    ]
+  },
+  {
+    "name": "Kareem Abdul-Jabbar",
+    "team": "Los Angeles Lakers",
+    "position": "Center",
+    "height": "7'2\"",
+    "weight": "225 lbs",
+    "draft_year": 1969,
+    "career_stats": {
+      "points": 38387,
+      "rebounds": 17440,
+      "assists": 5560
+    },
+    "achievements": [
+      "3x NBA Champion",
+      "6x NBA MVP",
+      "3x Finals MVP",
+      "19x NBA All-Star",
+      "15x All-NBA",
+      "5x All-Defensive"
+    ]
+  },
+  {
+    "name": "Stephen Curry",
+    "team": "Golden State Warriors",
+    "position": "Guard",
+    "height": "6'2\"",
+    "weight": "185 lbs",
+    "draft_year": 2009,
+    "career_stats": {
+      "points": 22816,
+      "rebounds": 2697,
+      "assists": 6838
+    },
+    "achievements": [
+      "4x NBA Champion",
+      "2x NBA MVP",
+      "1x Finals MVP",
+      "10x NBA All-Star",
+      "9x All-NBA"
+    ]
+  },
+  {
+    "name": "Kobe Bryant",
+    "team": "Los Angeles Lakers",
+    "position": "Guard",
+    "height": "6'6\"",
+    "weight": "200 lbs",
+    "draft_year": 1996,
+    "career_stats": {
+      "points": 33643,
+      "rebounds": 7047,
+      "assists": 6306
+    },
+    "achievements": [
+      "5x NBA Champion",
+      "1x NBA MVP",
+      "2x Finals MVP",
+      "18x NBA All-Star",
+      "15x All-NBA",
+      "12x All-Defensive"
+    ]
+  },
+  {
+    "name": "Magic Johnson",
+    "team": "Los Angeles Lakers",
+    "position": "Point Guard",
+    "height": "6'9\"",
+    "weight": "220 lbs",
+    "draft_year": 1979,
+    "career_stats": {
+      "points": 17707,
+      "rebounds": 6559,
+      "assists": 10141
+    },
+    "achievements": [
+      "5x NBA Champion",
+      "3x NBA MVP",
+      "3x Finals MVP",
+      "12x NBA All-Star",
+      "9x All-NBA"
+    ]
+  },
+  {
+    "name": "Larry Bird",
+    "team": "Boston Celtics",
+    "position": "Forward",
+    "height": "6'9\"",
+    "weight": "220 lbs",
+    "draft_year": 1978,
+    "career_stats": {
+      "points": 21791,
+      "rebounds": 8974,
+      "assists": 5695
+    },
+    "achievements": [
+      "3x NBA Champion",
+      "3x NBA MVP",
+      "2x Finals MVP",
+      "12x NBA All-Star",
+      "10x All-NBA",
+      "9x All-Defensive"
+    ]
+  },
+  {
+    "name": "Shaquille O'Neal",
+    "team": "Los Angeles Lakers",
+    "position": "Center",
+    "height": "7'1\"",
+    "weight": "325 lbs",
+    "draft_year": 1992,
+    "career_stats": {
+      "points": 28596,
+      "rebounds": 13099,
+      "assists": 3026
+    },
+    "achievements": [
+      "4x NBA Champion",
+      "1x NBA MVP",
+      "3x Finals MVP",
+      "15x NBA All-Star",
+      "8x All-NBA",
+      "3x All-Defensive"
+    ]
+  },
+  {
+    "name": "Tim Duncan",
+    "team": "San Antonio Spurs",
+    "position": "Power Forward",
+    "height": "6'11\"",
+    "weight": "250 lbs",
+    "draft_year": 1997,
+    "career_stats": {
+      "points": 26496,
+      "rebounds": 15091,
+      "assists": 3520
+    },
+    "achievements": [
+      "5x NBA Champion",
+      "2x NBA MVP",
+      "3x Finals MVP",
+      "15x NBA All-Star",
+      "10x All-NBA",
+      "15x All-Defensive"
+    ]
+  },
+  {
+    "name": "Kevin Durant",
+    "team": "Phoenix Suns",
+    "position": "Forward",
+    "height": "6'10\"",
+    "weight": "240 lbs",
+    "draft_year": 2007,
+    "career_stats": {
+      "points": 28371,
+      "rebounds": 7556,
+      "assists": 3477
+    },
+    "achievements": [
+      "1x NBA Champion",
+      "1x NBA MVP",
+      "1x Finals MVP",
+      "14x NBA All-Star",
+      "12x All-NBA"
+    ]
+  },
+  {
+    "name": "Giannis Antetokounmpo",
+    "team": "Milwaukee Bucks",
+    "position": "Forward",
+    "height": "6'11\"",
+    "weight": "242 lbs",
+    "draft_year": 2013,
+    "career_stats": {
+      "points": 30041,
+      "rebounds": 11481,
+      "assists": 5833
+    },
+    "achievements": [
+      "2x NBA Champion",
+      "2x NBA MVP",
+      "1x Finals MVP",
+      "6x NBA All-Star",
+      "6x All-NBA",
+      "5x All-Defensive"
+    ]
+  },
+  {
+    "name": "Scottie Pippen",
+    "team": "Chicago Bulls",
+    "position": "Forward",
+    "height": "6'7\"",
+    "weight": "210 lbs",
+    "draft_year": 1987,
+    "career_stats": {
+      "points": 18940,
+      "rebounds": 7494,
+      "assists": 6135
+    },
+    "achievements": [
+      "6x NBA Champion",
+      "1x NBA MVP",
+      "7x NBA All-Star",
+      "8x All-NBA",
+      "8x All-Defensive"
+    ]
+  },
+  {
+    "name": "Wilt Chamberlain",
+    "team": "Los Angeles Lakers",
+    "position": "Center",
+    "height": "7'1\"",
+    "weight": "275 lbs",
+    "draft_year": 1959,
+    "career_stats": {
+      "points": 31419,
+      "rebounds": 23924,
+      "assists": 1629
+    },
+    "achievements": [
+      "2x NBA Champion",
+      "1x NBA MVP",
+      "1x Finals MVP",
+      "13x NBA All-Star"
+    ]
+  },
+  {
+    "name": "Bill Russell",
+    "team": "Boston Celtics",
+    "position": "Center",
+    "height": "6'9\"",
+    "weight": "220 lbs",
+    "draft_year": 1956,
+    "career_stats": {
+      "points": 14522,
+      "rebounds": 21620,
+      "assists": 4100
+    },
+    "achievements": [
+      "11x NBA Champion",
+      "5x NBA MVP",
+      "5x Finals MVP",
+      "12x NBA All-Star"
+    ]
+  }
+]
