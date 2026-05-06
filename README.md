@@ -1,11 +1,10 @@
 # NBA RAG Chatbot
 
-An easy-to-run Retrieval-Augmented Generation (RAG) chatbot that answers questions about NBA players. This small, portfolio-ready Python project demonstrates building embeddings, fast retrieval, prompt augmentation, and answer generation using an LLM.
+This is a Python chatbot I built that answers questions about NBA players using a Retrieval-Augmented Generation (RAG) approach.
 
-Key points:
-- Minimal, clear CLI interface (`main.py`).
-- Embedding caching to reduce API calls and speed up local development.
-- Designed for recruiters: simple setup and run instructions.
+Instead of just guessing answers, the system searches through player data, finds the most relevant information, and uses that to generate responses.
+
+This project helped me understand how embeddings, retrieval, and AI systems work together in a real pipeline.
 
 ## What This Project Does
 
@@ -31,7 +30,7 @@ RAG flow:
 ## Project Structure
 
 ```text
-nba_rag_chatbot/
+nba-rag-chatbot/
 ├── main.py                  # CLI chatbot entry point
 ├── rag.py                   # Retrieve + Augment + Generate pipeline
 ├── retrieval.py             # Vector store and similarity search
@@ -51,54 +50,20 @@ nba_rag_chatbot/
 
 Recommended: Python 3.11 for best dependency support and performance.
 
-## Setup (Beginner Friendly)
+## Setup
 
-### Installation
-
-Follow these steps to prepare the project locally.
-
-1. Clone the repository and open the project directory:
+Follow these steps to prepare the project locally (Windows PowerShell shown):
 
 ```bash
-git clone <your-repo-url>
-cd nba_rag_chatbot
-```
-
-2. Create and activate a virtual environment (Python 3.11 recommended):
-
-```bash
+git clone https://github.com/dgrbch1/nba-rag-chatbot.git
+cd nba-rag-chatbot
 python -m venv venv
-# Windows PowerShell
 venv\Scripts\activate
-# macOS/Linux
-source venv/bin/activate
-```
-
-3. Install dependencies:
-
-```bash
 pip install -r requirements.txt
+Copy-Item .env.example .env
+notepad .env
+python main.py
 ```
-
-4. Configure environment variables:
-
-Create a `.env` from the provided `.env.example` and set your `OPENAI_API_KEY`:
-
-```bash
-Copy-Item .env.example .env  # Windows PowerShell
-```
-
-Then edit `.env` and add your key (do not commit `.env`):
-
-```env
-OPENAI_API_KEY=your_real_openai_api_key
-```
-
-```bash
-git clone <your-repo-url>
-cd nba_rag_chatbot
-```
-
 
 Important:
 - Never commit `.env` or real API keys to the repository or history.
@@ -203,7 +168,7 @@ To create a public GitHub repository and link this project, follow one of the me
 ```bash
 # install GitHub CLI if you don't have it: https://cli.github.com/
 gh auth login
-gh repo create <your-username>/nba_rag_chatbot --public --source=. --remote=origin --push
+gh repo create dgrbch1/nba-rag-chatbot --public --source=. --remote=origin --push
 ```
 
 - Or create the repo on the GitHub website and push from local Git:
@@ -212,15 +177,15 @@ gh repo create <your-username>/nba_rag_chatbot --public --source=. --remote=orig
 git init
 git add .
 git commit -m "Initial commit"
-# create a repo on https://github.com/new (name it `nba_rag_chatbot`), then:
-git remote add origin https://github.com/<your-username>/nba_rag_chatbot.git
+# create a repo on https://github.com/new (name it `nba-rag-chatbot`), then:
+git remote add origin https://github.com/dgrbch1/nba-rag-chatbot.git
 git branch -M main
 git push -u origin main
 ```
 
 Once pushed, your project will be available at:
 
-https://github.com/<your-username>/nba_rag_chatbot
+https://github.com/dgrbch1/nba-rag-chatbot
 
-Replace `<your-username>` with your GitHub username. If you'd like, I can run `git init` and make the initial commit here, and/or create the GitHub repo for you if you provide a GitHub username or allow me to use the `gh` CLI (and authenticate). 
+
 
