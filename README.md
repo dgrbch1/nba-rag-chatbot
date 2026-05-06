@@ -6,6 +6,10 @@ Instead of just guessing answers, the system searches through player data, finds
 
 This project helped me understand how embeddings, retrieval, and AI systems work together in a real pipeline.
 
+https://www.loom.com/share/6e1b5dbafe67459486c77a413c36cde3
+
+GitHub: [nba-rag-chatbot](https://github.com/dgrbch1/nba-rag-chatbot)
+
 ## What This Project Does
 
 This chatbot:
